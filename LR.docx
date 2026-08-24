@@ -15,3 +15,30 @@
 | **13** | **ML + rule-based recommendation**                                       | Soil NPK, pH, environmental parameters              | Combines ML crop recommendation with rule-based fertilizer recommendation                                 | Reports high crop recommendation performance and rule-based fertilizer recommendations                | Focuses on fertilizer/crop selection rather than disease-specific treatment                     | Strong evidence for using a **knowledge/rule-based agrochemical engine**          |
 | **14** | **Post-Quantum Cryptography + IoT performance analysis**                 | Resource-constrained IoT devices                    | Studies PQC performance and optimization for constrained devices                                          | Finds PQC feasible for reasonably lightweight IoT but highlights computational/communication overhead | Standardization and optimization remain challenges                                              | Provides the foundation for your **PQC communication layer**                      |
 | **15** | **PQC + IoT + Deep Learning**                                            | IoT/AI environments                                 | Investigates integration of quantum-resistant cryptography with DL-enabled IoT                            | Shows feasibility of combining AI and PQ security                                                     | Not agriculture-specific; security overhead must be evaluated                                   | Provides the bridge between **AI + IoT + PQC**, matching your unique architecture |
+
+
+
+
+
+
+
+
+
+
+| #  | Google Scholar                                                                                                                                                                |
+| -- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1  | [Google Scholar](https://scholar.google.com/scholar?q=%22Plant+Leaf+Disease+Detection+Using+Ensemble+Learning+and+Explainable+AI%22&utm_source=chatgpt.com)                   |
+| 2  | [Google Scholar](https://scholar.google.com/scholar?q=%22Optimized+Vision+Transformers+for+Superior+Plant+Disease+Detection%22&utm_source=chatgpt.com)                        |
+| 3  | [Google Scholar](https://scholar.google.com/scholar?q=%22PlantHealthNet%22+%22Disease+Diagnosis%22&utm_source=chatgpt.com)                                                    |
+| 4  | [Google Scholar](https://scholar.google.com/scholar?q=%22Convolution+Self-Guided+Transformer%22+crop+disease&utm_source=chatgpt.com)                                          |
+| 5  | [Google Scholar](https://scholar.google.com/scholar?q=%22Improving+Plant+Disease+Classification%22+%22Explainable+Artificial+Intelligence%22&utm_source=chatgpt.com)          |
+| 6  | [Google Scholar](https://scholar.google.com/scholar?q=%22Plant+Leaf+Disease+Detection%2C+Classification+and+Diagnosis%22&utm_source=chatgpt.com)                              |
+| 7  | [Google Scholar](https://scholar.google.com/scholar?q=%22Plant+Disease+Detection+Using+Self-Supervised+Learning%22&utm_source=chatgpt.com)                                    |
+| 8  | [Google Scholar](https://scholar.google.com/scholar?q=%22AI-Powered+Plant+Disease+Detection+System%22+geospatial&utm_source=chatgpt.com)                                      |
+| 9  | [Google Scholar](https://scholar.google.com/scholar?q=%22Plant+Disease+Detection+and+Pesticide+Recommendation+Using+Deep+Learning%22&utm_source=chatgpt.com)                  |
+| 10 | [Google Scholar](https://scholar.google.com/scholar?q=%22Crop+Disease+Prediction+and+Pesticide+Recommendation+Using+Deep+Learning+Techniques%22&utm_source=chatgpt.com)       |
+| 11 | [Google Scholar](https://scholar.google.com/scholar?q=%22Plant+disease+identification+and+pesticides+recommendation+using+Dense+Net%22&utm_source=chatgpt.com)                |
+| 12 | [Google Scholar](https://scholar.google.com/scholar?q=%22Comparative+Analysis+of+Smart+Pesticide+Recommendation+System+Using+ML%2FAI%22&utm_source=chatgpt.com)               |
+| 13 | [Google Scholar](https://scholar.google.com/scholar?q=%22Data-Driven+Analysis+and+Machine+Learning-Based+Crop+and+Fertilizer+Recommendation+System%22&utm_source=chatgpt.com) |
+| 14 | [Google Scholar](https://scholar.google.com/scholar?q=%22Post-Quantum+Cryptography+for+Internet+of+Things%22+%22Performance+and+Optimization%22&utm_source=chatgpt.com)       |
+| 15 | [Google Scholar](https://scholar.google.com/scholar?q=%22Post-Quantum+Cryptography%22+%22IoT-Consumer+Electronics%22+%22Deep+Learning%22&utm_source=chatgpt.com)              |
