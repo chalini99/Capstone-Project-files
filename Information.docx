@@ -1,0 +1,611 @@
+AgroPQ
+
+An AI-Powered Crop Disease Detection and Agrochemical Recommendation Framework with Post-Quantum Secure Cloud Communication
+
+Problem Statement
+
+Modern agriculture faces significant crop losses due to plant diseases
+and insect infestations. Manual disease identification is often
+time-consuming, costly, and inaccurate, leading to delayed
+treatment, reduced yield, and excessive agrochemical usage.
+
+There is a need for an intelligent system that can detect crop
+diseases from leaf images and recommend suitable pesticides,
+insecticides, or fungicides based on the detected disease.
+
+As smart farming increasingly uses cloud-based services, secure
+agricultural data transmission is also important. Therefore, AgroPQ
+aims to integrate AI-based disease detection, smart agrochemical
+recommendation, and Post-Quantum Cryptography (PQC)-based secure cloud
+communication into a unified agricultural system.
+
+I. Project Overview
+
+1.1 Problem Context
+
+Agricultural productivity is significantly affected by crop diseases and
+pest infestations. Diseases caused by fungi, bacteria, viruses, and
+insects can damage crops and reduce both yield and quality.
+
+Traditional disease identification generally depends on:
+
+Manual visual inspection
+
+Farmer experience
+
+Agricultural experts
+
+Laboratory diagnosis
+
+These approaches may not always be immediately available, particularly
+for farmers who require quick decisions.
+
+The proposed system uses machine learning and deep learning techniques
+to analyze crop leaf images and identify diseases automatically.
+
+After disease identification, the system provides suitable
+treatment/agrochemical recommendations, including pesticides,
+insecticides, or fungicides.
+
+Since the system is intended to use cloud-based services, secure
+communication is also considered. The proposed security layer
+incorporates Post-Quantum Cryptography to address future quantum-related
+security threats.
+
+1.2 Motivation
+
+1. Early Disease Detection
+
+Early identification of crop diseases can help farmers take timely
+corrective action and reduce crop losses.
+
+2. Reduction of Manual Diagnosis
+
+AI-based image analysis can reduce dependence on manual visual
+inspection.
+
+3. Smart Treatment Recommendation
+
+Disease identification alone does not tell the farmer what action to
+take. The system therefore aims to connect disease detection with
+treatment/agrochemical recommendations.
+
+4. Reduction of Unnecessary Agrochemical Usage
+
+Appropriate recommendations can help avoid indiscriminate or unnecessary
+pesticide usage.
+
+5. Cloud-Based Agriculture
+
+Modern agricultural applications can use cloud infrastructure for AI
+processing, data management, and application services.
+
+6. Future-Oriented Security
+
+The increasing importance of quantum-resistant cryptography motivates
+the inclusion of a Post-Quantum Security Layer.
+
+1.3 Significance
+
+The proposed system is significant because it attempts to connect three
+important areas:
+
+ Artificial Intelligence --- for automatic crop disease
+detection.
+
+ Smart Agrochemical Recommendation --- for providing treatment
+recommendations based on detected disease.
+
+ Post-Quantum Security --- for protecting agricultural data
+transmission and cloud communication.
+
+The overall objective is therefore not simply to create another
+disease-classification model, but to develop an integrated smart
+agriculture framework.
+
+1.4 Application Domain
+
+Primary Domain
+
+Smart Agriculture / Precision Agriculture
+
+Supporting Domains
+
+Artificial Intelligence
+
+Machine Learning
+
+Deep Learning
+
+Computer Vision
+
+Image Processing
+
+Agricultural Informatics
+
+Cloud Computing
+
+Data Analytics
+
+Cybersecurity
+
+Post-Quantum Cryptography
+
+Web/Mobile Application Development
+
+1.5 Target Users
+
+Primary Users
+
+Farmers
+
+Small and medium-scale agricultural users
+
+Secondary Users
+
+Agricultural consultants
+
+Agricultural extension workers
+
+Agronomists
+
+Researchers
+
+Smart-farming organizations
+
+The main intended user interaction is through a mobile or web
+application, where the user can upload or capture a leaf image.
+
+1.6 Proposed System --- High-Level Concept
+
+                  FARMER / USER
+                        │
+                        ▼
+                 Upload Leaf Image
+                        │
+                        ▼
+             ┌─────────────────────┐
+             │ CNN / Vision Model  │
+             └──────────┬──────────┘
+                        │
+                        ▼
+              Disease Classification
+                        │
+                        ▼
+             Treatment Recommendation
+                        │
+                        ▼
+          ┌──────────────────────────┐
+          │ Post-Quantum Security     │
+          │ Layer                     │
+          │ ML-KEM / ML-DSA / PQ-TLS │
+          └────────────┬─────────────┘
+                       │
+                       ▼
+                 Cloud Database
+                       │
+                       ▼
+                 Mobile / Web App
+
+II. Literature Review
+
+2.1 Review of Relevant Research
+
+The literature review for AgroPQ is divided into three major research
+areas.
+
+A. Crop Disease Detection
+
+Research in agricultural AI has increasingly used machine learning and
+deep learning to automatically identify crop diseases from plant images.
+
+Common approaches
+
+Convolutional Neural Networks (CNNs)
+
+Transfer learning
+
+YOLO-based object detection
+
+EfficientNet
+
+Vision Transformers
+
+Ensemble learning
+
+Explainable AI
+
+Existing research demonstrates that
+
+Deep-learning models can learn disease-related visual patterns.
+
+Image-based disease classification can automate diagnosis.
+
+YOLO-based models can support detection-oriented applications.
+
+Transformer-based approaches provide an alternative to traditional
+CNN architectures.
+
+Ensemble models can combine multiple models.
+
+Explainable AI can help interpret model predictions.
+
+Relevance to AgroPQ
+
+AgroPQ will use this research as the foundation for its crop disease
+detection module.
+
+B. Agrochemical Recommendation
+
+A second research area focuses on using machine learning for
+agricultural decision support.
+
+Existing research investigates
+
+Crop recommendation
+
+Fertilizer recommendation
+
+Pesticide recommendation
+
+Insecticide recommendation
+
+Fungicide recommendation
+
+Crop management
+
+Agricultural input optimization
+
+Possible inputs
+
+Crop type
+
+Disease
+
+Soil parameters
+
+Environmental conditions
+
+Agricultural knowledge
+
+Historical data
+
+Limitation in Existing Approaches
+
+Many recommendation systems are developed separately from image-based
+disease diagnosis.
+
+Relevance to AgroPQ
+
+AgroPQ aims to connect:
+
+Detected Crop Disease → Treatment/Agrochemical Recommendation
+
+The system is intended to provide pesticide, insecticide, or fungicide
+recommendations based on the detected disease.
+
+C. Post-Quantum Cryptography and Cloud Security
+
+The third research area concerns secure communication and post-quantum
+cryptography.
+
+Existing PQC research investigates quantum-resistant security for:
+
+Cloud systems
+
+IoT systems
+
+Secure communication
+
+Key establishment
+
+Digital signatures
+
+Data transmission
+
+Proposed security technologies
+
+ML-KEM
+
+ML-DSA
+
+PQTLS
+
+Relevance to AgroPQ
+
+The security layer is intended to protect communication involving:
+
+User/application
+
+Cloud platform
+
+Agricultural database
+
+Disease-analysis results
+
+Recommendation results
+
+2.2 Literature Synthesis
+
+The collected literature indicates that substantial research already
+exists in each individual area.
+
+Crop Disease Detection
+
+Deep learning has demonstrated strong potential for automatically
+identifying crop diseases from images.
+
+Agrochemical Recommendation
+
+Machine learning can support agricultural decisions involving
+fertilizers, pesticides, and crop management.
+
+Post-Quantum Security
+
+PQC provides a potential approach for protecting communication against
+future quantum-enabled threats.
+
+Overall Synthesis
+
+However, these areas are generally investigated as separate technical
+problems.
+
+The literature therefore suggests an opportunity to integrate:
+
+AI Disease Detection
+        +
+Agrochemical Recommendation
+        +
+Post-Quantum Security
+        ↓
+Unified Smart Agriculture Framework
+
+2.3 Comparative Analysis
+
+Research Area    Existing           Main Contribution              Main Limitation      Relevance to AgroPQ
+Technology
+
+Crop Disease     CNN / Deep         Automated disease              Dataset and          Provides
+Detection        Learning           identification                 environmental        disease-detection
+dependency           module
+
+Disease          YOLO               Detection/localization of      Requires suitable    Potential real-time
+Detection                           diseases                       training data        detection approach
+
+Disease          Vision             Attention-based visual         Computational/data   Candidate modern
+Detection        Transformers       representation                 requirements         vision approach
+
+Disease          Ensemble + XAI     Prediction + interpretability  Increased model      Can improve trust
+Detection                                                          complexity           in diagnosis
+
+Agrochemical     ML                 Crop/fertilizer/pesticide      Often independent of Provides
+Recommendation                      recommendations                disease diagnosis    recommendation
+component
+
+Fertilizer       ML                 Crop suitability and           Limited treatment    Supports
+Recommendation                      fertilizer selection           integration          agricultural
+recommendation
+
+Cloud Security   Cryptographic      Secure data communication      Future quantum       Establishes
+techniques                                        threat               security
+considerations       requirement
+
+PQC              ML-KEM / ML-DSA /  Quantum-resistant              Computational and    Provides AgroPQ
+PQ-TLS             communication/authentication   implementation       security layer
+overhead
+
+2.4 Key Findings from Literature
+
+Finding 1 --- AI can automate crop disease detection
+
+Deep-learning and computer-vision techniques provide effective
+approaches for identifying diseases from crop images.
+
+Finding 2 --- Machine learning can support agricultural recommendations
+
+Existing research demonstrates the feasibility of recommending crops,
+fertilizers, pesticides, and other agricultural inputs using data-driven
+approaches.
+
+Finding 3 --- Explainability can improve trust
+
+XAI techniques can provide additional interpretation of AI-based disease
+predictions.
+
+Finding 4 --- Cloud-based agricultural systems require security
+
+As agricultural applications increasingly rely on cloud infrastructure,
+protecting transmitted and stored agricultural data becomes important.
+
+Finding 5 --- PQC provides a future-oriented security direction
+
+Post-quantum cryptography can be investigated to protect communication
+against potential future quantum attacks.
+
+Finding 6 --- Most Important
+
+Existing research generally addresses disease detection, agrochemical
+recommendation, and secure communication independently. This creates
+an opportunity for an integrated framework such as AgroPQ.
+
+III. Research Gap
+
+3.1 Identified Research Gap
+
+The major research gap identified from the literature is:
+
+Limited integration of AI-based crop disease detection,
+disease-aware agrochemical recommendation, and post-quantum secure
+cloud communication within a single agricultural framework.
+
+Existing research provides strong solutions for individual components,
+but they are commonly developed independently.
+
+3.2 Technical Limitations
+
+Disease Detection
+
+Existing disease-detection systems may face:
+
+Dependence on training datasets
+
+Limited crop/disease coverage
+
+Variations in lighting and background
+
+Differences between laboratory and field images
+
+Generalization challenges
+
+Agrochemical Recommendation
+
+Existing recommendation systems may face:
+
+Dependence on agricultural data quality
+
+Limited integration with image-based disease diagnosis
+
+Difficulty maintaining up-to-date agricultural knowledge
+
+Need for reliable treatment information
+
+Different agricultural conditions across regions
+
+PQC Security
+
+PQC-based communication may introduce:
+
+Computational overhead
+
+Communication overhead
+
+Larger cryptographic artifacts depending on the algorithm
+
+Implementation complexity
+
+Key-management requirements
+
+Therefore, AgroPQ must evaluate both security and performance.
+
+3.3 Need for Proposed Work
+
+A farmer may currently need separate processes:
+
+Identify disease
+       ↓
+Consult expert / search treatment
+       ↓
+Find appropriate agrochemical
+       ↓
+Use separate application/cloud service
+       ↓
+Transmit/store data securely
+
+AgroPQ aims to combine these steps into a single system:
+
+              LEAF IMAGE
+                  ↓
+          AI DISEASE DETECTION
+                  ↓
+            DISEASE RESULT
+                  ↓
+       AGROCHEMICAL RECOMMENDATION
+                  ↓
+        SECURE CLOUD COMMUNICATION
+                  ↓
+              USER RESULT
+
+This creates an end-to-end agricultural decision-support workflow.
+
+3.4 Proposed Differentiation
+
+Existing Research
+
+Paper 1 → Disease Detection
+Paper 2 → Disease Detection + XAI
+Paper 3 → Fertilizer Recommendation
+Paper 4 → Pesticide Recommendation
+Paper 5 → PQC Security
+
+Proposed AgroPQ
+
+              AGROPQ
+                 │
+      ┌──────────┼──────────┐
+      ▼          ▼          ▼
+   Disease   Agrochemical   PQC
+  Detection  Recommendation Security
+      │          │           │
+      └──────────┼───────────┘
+                 ▼
+        Unified Smart Agriculture
+             Framework
+
+3.5 Proposed Novelty
+
+The proposed novelty lies in the integration of AI-based crop disease
+detection, smart agrochemical recommendation, and post-quantum secure
+cloud communication into a unified smart agriculture framework.
+
+The project does not claim to invent a new CNN or a new PQC
+algorithm.
+
+Primary Contribution
+
+Integration + Implementation + Evaluation
+
+3.6 Expected Differentiation from Existing Systems
+
+Feature                                       Typical Existing System        AgroPQ
+
+Crop image analysis                           ✓                              ✓
+Disease classification                        ✓                              ✓
+Treatment recommendation                      Sometimes                      ✓
+Disease-aware recommendation                  Limited                        ✓
+Pesticide/insecticide/fungicide information   Some systems                   ✓
+Explainability                                Some systems                   Potentially ✓
+Cloud integration                             Some systems                   ✓
+Post-Quantum Security                         Rare in agricultural systems   ✓
+End-to-end integration                        Limited                        ✓
+
+3.7 Final Research-Gap Statement for PPT
+
+Existing studies effectively address crop disease detection,
+agrochemical recommendation, and secure communication individually.
+However, limited work integrates these components into a unified
+agricultural framework. AgroPQ addresses this gap by combining
+AI-based disease detection, disease-aware agrochemical recommendation,
+and post-quantum secure cloud communication.
+
+Core AgroPQ Workflow
+
+INPUT
+ Crop / Leaf Image
+        ↓
+MODULE 1
+ AI Disease Detection
+        ↓
+OUTPUT
+ Detected Disease
+        ↓
+MODULE 2
+ Smart Agrochemical Recommendation
+        ↓
+OUTPUT
+ Treatment Recommendation
+        ↓
+MODULE 3
+ Post-Quantum Secure Communication
+        ↓
+INFRASTRUCTURE
+ Cloud Database / Backend
+        ↓
+USER
+ Web / Mobile Application
+
+One-Line Project Explanation
+
+AgroPQ detects crop diseases from leaf images, recommends
+appropriate agrochemical treatments based on the detected disease, and
+protects the application's cloud communication using post-quantum
+cryptography.
